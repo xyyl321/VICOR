@@ -235,12 +235,12 @@
 .tuikuan p{
     font-size: 0.26rem;
    
-    line-height: 0.84rem;
+    line-height: 0.82rem;
     text-align: center;
     color: #333333;
 }
 .tuikuan .one{
-    height: 0.84rem;
+    height: 0.82rem;
     display: flex;
     justify-content: space-between;
     padding:0 0.43rem;
@@ -259,7 +259,7 @@
 }
 .qued{
     width: 7.5rem;
-    height: 0.77rem;
+    height: 0.82rem;
     background: #ffcb3f;
 
 }
