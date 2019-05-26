@@ -1,12 +1,12 @@
 body{
     background:#FCFCFC;
 }
-#header{
+.header{
 width: 100%;
 height: 0.88rem;
 padding:0 0.24rem;
-/* float: left;
-position:fixed; */
+position:fixed;
+top:0;
 box-sizing: border-box;
 }
 .hea_w{
@@ -51,6 +51,7 @@ margin:0 0.06rem;
 }
 /* 导航栏结束 */
 .shopcar{
+    margin-top:0.88rem;
     width:7.5rem;
     height:6.99rem;
     box-sizing:border-box;
