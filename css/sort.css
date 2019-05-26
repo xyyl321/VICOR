@@ -103,9 +103,10 @@ body{background:#fcfcfc;}
     width:7.5rem;
     padding:0 0.34rem 0 0.34rem;
     margin-top:0.88rem;
+    background: #fff;
     box-sizing:border-box;
     border-bottom:0.01rem solid #ffcb3f;
-    box-shadow:0 0.1rem 0.1rem 0.006rem #d6d6d6;
+    box-shadow:0 0.1rem 0.2rem 0.006rem rgba(0, 0, 0, 0.1);
    /* overflow:hidden;*/
     display:flex;
     justify-content:space-between;
@@ -139,6 +140,7 @@ body{background:#fcfcfc;}
     border:0;
     background:#fff;
     font-size:0.24rem;
+    color:#000;
 }
 /*中心部分*/
 .center{
@@ -193,7 +195,6 @@ body{background:#fcfcfc;}
 }
 .center .right .top img{
     width:5.04rem;
-    height:1.34rem;  
 }
 .center .right .cen{
     width:5.04rem;
