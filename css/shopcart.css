@@ -286,9 +286,8 @@ body{
     border-radius: 50%;
 }
 .balance .balance2 .left .amountto{
-    width:1.88rem;
+    width:2rem;
     height:0.5rem;
-    margin:0.22rem 0 0.18rem 0;
 }
 .balance .balance2 .right{
     display: block;
