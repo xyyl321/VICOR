@@ -2,55 +2,61 @@ body{
     background:#FCFCFC;
 }
 #header{
-width: 100%;
-height: 0.88rem;
-padding:0 0.24rem;
-/* float: left;
-position:fixed; */
-box-sizing: border-box;
+    width: 100%;
+    height: 0.88rem;
+    border-bottom:0.01rem solid #EDEDED;
+    box-sizing:border-box;
+    background-color:#FFFFFF;
+    position:fixed;
+    top:0;
+    left:0;
 }
 .hea_w{
-width: 7.02rem;
-height: 100%;
-margin: 0 auto;
-text-align: center;
-line-height: 0.88rem;
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.44rem;
 }
 .hea_w .cuo .iconfont{
-font-size: 0.36rem;
-color: #000000;
-float:left;
+    font-size: 0.36rem;
+    display: block;
+    color: #000000;
+    float: left;
+    padding: 0.29rem 0 0 0.24rem;
 }
 .hea_w .title{
-width: 0.92rem;
-height: 0.3rem;
-font-size: 0.36rem;
-letter-spacing: 0.11rem;
-font-family: 'GillSansMT-ExtraCondensedBold';
+    width: 0.92rem;
+    height: 0.3rem;
+    line-height:0.88rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.11rem;
+    font-family: 'GillSansMT-ExtraCondensedBold';
 }
 .hea_w .title span{
-color: #ffcb3f;
+    color: #ffcb3f;
 }
 .hea_w .set{
-width: 0.36rem;
-height: 0.08rem;
-float: right;
-margin-right: 0.23rem;
-display: block;
-padding-top: 0.4rem;
+    width: 0.36rem;
+    height: 0.08rem;
+    float: right;
+    margin-right: 0.23rem;
+    display: block;
+    padding-top: 0.4rem;
 }
 .hea_w .set .itm{
-width: 0.08rem;
-height: 0.08rem;
-float: left;
-background: #000000;
-border-radius: 50%;
+    width: 0.08rem;
+    height: 0.08rem;
+    float: left;
+    background: #000000;
+    border-radius: 50%;
 }
 .hea_w .set .itm:nth-child(2){
-margin:0 0.06rem;
+    margin:0 0.06rem;
 }
 /* 导航栏结束 */
 .shopcar{
+    margin-top:0.88rem;
     width:7.5rem;
     height:6.99rem;
     box-sizing:border-box;
@@ -77,7 +83,7 @@ margin:0 0.06rem;
     width:0.23rem;
     height:0.23rem;
     border-radius:50%;
-    border:0.006rem solid #FFCB3F;
+    border:0.02rem solid #FFCB3F;
     background:#fff;
     position:absolute;
     top:0;
@@ -173,6 +179,7 @@ margin:0 0.06rem;
     padding:0 0.24rem;
     box-sizing:border-box;
     margin-top:0.29rem;
+    margin-bottom:1.96rem;
 }
 .Bigbox ul{
     width:6.78rem;
@@ -247,6 +254,55 @@ margin:0 0.06rem;
     
 }
 /* 推荐商品结束 */
+/* 去结算开始 */
+.balance{
+    width:7.5rem;
+    height:0.9rem;
+    border-top:0.01rem solid #e5e5e5;
+    position:fixed;
+    bottom:0.98rem;
+    left:0;
+    background-color:#fff;
+}
+.balance .balance2{
+    width:7.08rem;
+    height:100%;
+    margin-left:0.42rem;
+    display: flex;
+    justify-content:space-between;
+}
+.balance .balance2 .left{
+    width:3.16rem;
+    height:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.balance .balance2 .left button{
+    width:0.23rem;
+    height:0.23rem;
+    border:0.01rem solid #ffcb3f;
+    background:#fff;
+    border-radius: 50%;
+}
+.balance .balance2 .left .amountto{
+    width:2rem;
+    height:0.5rem;
+}
+.balance .balance2 .right{
+    display: block;
+    width:2.12rem;
+    height:100%;
+    background:#ffcb3f;
+    box-shadow: -0.3px 2px 6.9px 0.1px 
+		rgba(224, 163, 0, 0.45);
+    border-radius: 4px;
+    text-align: center;
+    line-height:0.9rem;
+    color:#fff;
+    font-size:0.28rem;
+}
+/* 去结算结束 */
 /* tab栏开始 */
 .footer{
 width:7.5rem;
