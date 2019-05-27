@@ -397,7 +397,8 @@
     color: #000000;
 }
 
-.rel .xia button{
+.rel .xia a button{
+    display: block;
     width: 1.53rem;
     height: 0.44rem;
     float: right;
