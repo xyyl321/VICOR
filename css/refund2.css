@@ -173,7 +173,7 @@
    
     
 }
-.wenti .qing{
+textarea{
     width: 6.65rem;
     height: 2.07rem;
     background-color: #f5f5f5;
@@ -181,14 +181,24 @@
     box-sizing:border-box;
     color: #999999;
     border-radius: 0.12rem;
-
+    font-size: 0.24rem;
+  border: 0;
+  outline:none;
+  line-height: 0.36rem;
+  resize: none;
 }
+textarea:-webkit-placeholder{
+    color: black;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+
 .wenti .qing p{
     color: #999999;
     font-size: 0.24rem;
     margin:  0 0 0.9rem 0;
 }
-.wenti .qing span{
+.wenti  span{
     font-size: 0.18rem;
 
 }
@@ -229,6 +239,7 @@
     bottom:0;
     left: 0;
     background-color: #fff;
+    display: none;
   
 }
 
@@ -277,4 +288,5 @@
     left: 0;
     background-color: #000000;
     opacity:0.2;
+    display: none;
 }
