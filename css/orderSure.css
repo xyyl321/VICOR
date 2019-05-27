@@ -9,7 +9,7 @@ body{
     top:0;
     box-sizing: border-box;
     border-bottom: 0.01rem solid #F2F2F2;
-    background:#fff;
+    background-color:#fff;
 }
 .hea_w{
     width: 7.02rem;
@@ -63,6 +63,8 @@ body{
     rgba(118, 118, 118, 0.17);
     position: relative;
     border-radius: 0.1rem;
+    background-color:#fff;
+
 }
 .site .pencil{
     width:100%;
@@ -233,7 +235,8 @@ body{
     height:100%;
     background:#fff;
     border:0.01rem solid #BFBFBF;
-    text-indent:1em;
+    outline:none;
+    /* text-indent:1em; */
     box-sizing:border-box;
 }
 /* .order .center .ri .rmb3{
@@ -258,18 +261,21 @@ body{
 /* 发票信息结束 */
 /* Tab开始 */
 .payoff{
-    margin-top:0.88rem;
     width:7.5rem;
-    height:0.9rem;
+    height:0.98rem;
     padding-left:0.24rem;
     box-sizing:border-box;
     border-top:0.01rem solid #E5E5E5;
     line-height:0.9rem;
     display:flex;
     justify-content:space-between;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color:#fff;
 }
 .payoff .left{
-    width:1.8rem;
+    width:2rem;
     height:100%;
 }
 .payoff .fone{

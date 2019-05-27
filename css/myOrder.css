@@ -51,10 +51,11 @@
     margin:0  0.06rem;
 }
 .order{
-    margin-top: 0.98rem;
+    margin-top: 0.88rem;
     width: 100%;
     height: 0.78rem;
     float: left;
+    background-color:#fff;
 }
 .order_w{
     width: 7.5rem;
@@ -81,6 +82,7 @@
     height: 0.78rem;
     float: left;
     border-bottom: 0.01rem solid #ffcb3f;
+    background-color:#fff;
 }
 .lists li{
     width: 20%;
@@ -295,16 +297,18 @@
     height: 1.5rem;
     float: left;
 }
+/* tab */
 .footer{
     width:7.5rem;
     height:0.98rem;
-    float: left;
     padding:0 0.24rem;
     border-top:0.01rem solid #C2C2C2;
     background:#FAFAFA;
+    box-sizing: border-box;
     position: fixed;
+    bottom:0;
+    left:0;
     display:flex;
-    bottom: 0;
     justify-content:space-between;
 }
 .footer .box{
@@ -319,11 +323,10 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    
 }
 .footer .box i{
     font-size:0.4rem;
-    color:#040404;  
+    color:#040404; 
 }
 .footer .box .text{
     font-size:0.2rem;
