@@ -127,10 +127,10 @@ body{
         margin-top: 0.46rem;
     }
     .shafa .box{
-        width: auto;
+        width: 7rem;
         height: 1.34rem;
         margin-top:0.59rem;
-        padding-left: 0.17rem;
+       margin-left: 0.1rem;
         box-sizing: border-box;
 
     }
