@@ -173,7 +173,7 @@ body{
     color: #000000;
 }
 .shafa .left{
-    width: 1.34rem;
+    width: 1.4rem;
     height: auto;
     float: right;
     padding-top: 0.4rem;
@@ -181,6 +181,10 @@ body{
    
 
 }
+.shafa .left .aa{
+    width: 2rem;
+}
+
 .shafa .left span{
     color: #000000;
   

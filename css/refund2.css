@@ -117,16 +117,17 @@
     }
 
 .small{
-    display: flex;
-    justify-content:space-between;
+   
     font-size: 0.22rem;
     border: #999999;
-     width: 4rem;
+     width: 5rem;
      opacity: 0.7;
 }
+
 .small .span1{
     font-weight: bold;
     color: #000000;
+    margin:0 0.1rem;
 }
 /* 申请原因 */
 .shenq{
