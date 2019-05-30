@@ -131,7 +131,7 @@
     color: #000000;
 }
 .shafa .left{
-    width: 1.34rem;
+    width: 1.50rem;
     height: auto;
     float: right;
     padding-top: 0.4rem;
@@ -143,6 +143,10 @@
     color: #000000;
   
     font-size: 0.18rem;
+}
+
+.shafa .left .aa{
+    width: 1.80rem;
 }
 
 .shafa .left .rmb{
