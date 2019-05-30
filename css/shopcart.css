@@ -284,9 +284,10 @@ body{
     border:0.01rem solid #ffcb3f;
     background:#fff;
     border-radius: 50%;
+    outline:none;
 }
 .balance .balance2 .left .amountto{
-    width:2rem;
+    width:auto;
     height:0.5rem;
 }
 .balance .balance2 .right{
