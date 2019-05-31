@@ -129,14 +129,18 @@ body{
     .shafa .box{
         width: 7rem;
         height: 1.34rem;
-        margin-top:0.59rem;
+        margin-top:0.46rem;
        margin-left: 0.1rem;
         box-sizing: border-box;
+        position: relative;
 
     }
     #pp{
        font-size: 0.24rem;
-       margin-left: 2rem;
+       position: absolute;
+       bottom: -0.8rem;
+       right: 0.2rem;
+     
        color: #999999;
     }
 
@@ -177,25 +181,29 @@ body{
     height: auto;
     float: right;
     padding-top: 0.4rem;
-    padding-left: 0.4rem;
+  
    
 
 }
 .shafa .left .aa{
     width: 2rem;
+    float: right;
+    line-height: 0.6rem;
 }
 
 .shafa .left span{
     color: #000000;
   
     font-size: 0.18rem;
+    float: right;
 }
 
 .shafa .left .rmb{
     font-weight: bold;
     font-size: 0.24rem;
-    margin:0.21rem 0 0 0.25rem;
+  
     line-height: 0.57rem;
+
 
 
 
@@ -207,6 +215,7 @@ body{
     border-radius: 4px;
     border: solid 1px #ffcb3f;
     text-align: center;
+    float: right;
 }
 .shafa .left .wu{
     font-size: 0.24rem;
