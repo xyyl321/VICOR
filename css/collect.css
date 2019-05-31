@@ -126,7 +126,7 @@
     height: 0.61rem;
     position: absolute;
     right: 0.32rem;
-    bottom: -0.14rem;
+    bottom: 0.18rem;
 }
 .goods_w .qux{
     width: 3.2rem;
@@ -176,7 +176,7 @@
     color: #ffcb3f;
     float: right;
     font-weight: bold;
-    margin-top: 0.20rem;
+    margin-top: 0.60rem;
 }
 .titl .fuk .jiaoyi{
     font-weight: normal;
