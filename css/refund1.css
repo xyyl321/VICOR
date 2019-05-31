@@ -80,7 +80,7 @@
         margin: auto;
         background-color: #fff;
         border-top: 0.02rem solid #f5f5f5;
-        padding: 0 0.18rem;
+        padding:0  0.18rem;
         box-sizing: border-box;
         display:flex;
         margin-top:0.32rem;
@@ -91,7 +91,7 @@
         margin-top: 0.46rem;
     }
     .shafa .box{
-        width: auto;
+        width:4rem;
         height: 1.34rem;
         margin-top:0.59rem;
         padding-left: 0.17rem;
@@ -135,8 +135,6 @@
     height: auto;
     float: right;
     padding-top: 0.4rem;
-    padding-left: 0.4rem;
-   
 
 }
 .shafa .left span{
@@ -146,7 +144,8 @@
 }
 
 .shafa .left .aa{
-    width: 1.80rem;
+    
+    float: right;
 }
 
 .shafa .left .rmb{
@@ -159,18 +158,21 @@
 
 }
 .shafa .left p{
+    width: 1.5rem;
     font-size: 0.24rem;
     color: #ffcb3f;
     line-height: 0.44rem;
     border-radius: 4px;
     border: solid 1px #ffcb3f;
     text-align: center;
+   float: right;
 }
 .shafa .left .wu{
     font-size: 0.24rem;
     font-weight: bold;
-    padding-left: 0.28rem;
+    padding-left: 0.3rem;
    line-height: 0.8rem;
+   float: right;
 }
 /* <!-- tap栏 --> */
 .footer{
