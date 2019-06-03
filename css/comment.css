@@ -98,7 +98,7 @@ body{background:#fcfcfc;}
 }
 /*导航*/
 .top{
-    height:0.97rem;
+    height:1rem;
     width:7.5rem;
     padding:0 0.24rem;
     margin-top:0.88rem;
@@ -110,7 +110,7 @@ body{background:#fcfcfc;}
     background:#fff;
 }
 .top .s{
-    height:1rem;
+    height:0.94rem;
     width:7.02rem;
     box-sizing:border-box;
     display: flex;
@@ -127,7 +127,7 @@ body{background:#fcfcfc;}
 }
 
 .top .b{
-    height:0.03rem;
+    height:0.04rem;
     width:7.02rem;
     box-sizing:border-box;
     display: flex;
@@ -210,7 +210,7 @@ body{background:#fcfcfc;}
     height:1.32rem;
 }
 .block1 .time{
-    width:3.78rem;
+    width:75%;
     height:0.26rem;
     display: flex;
     justify-content:space-between;
